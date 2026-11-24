@@ -5,6 +5,7 @@ name: ci
 # not part of CI (see docs/architecture.md §20.3).
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
